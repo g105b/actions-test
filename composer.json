@@ -1,0 +1,23 @@
+{
+	"name": "g105b/actions-test",
+	"description": "",
+	"type": "project",
+
+	"require": {
+		"php": ">=8.0",
+		"phpgt/webengine": "~4.0.1"
+	},
+
+	"require-dev": {
+		"phpunit/phpunit": "~9.5",
+		"behat/behat": "3.*",
+		"behat/mink-extension": "2.*",
+		"behat/mink-goutte-driver": "1.*"
+	},
+
+	"autoload": {
+		"psr-4": {
+			"g105b\\": "./class"
+		}
+	}
+}
