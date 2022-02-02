@@ -20,6 +20,7 @@ jobs:
 
       - name: Run a multi-line script
         run: |
-          php --version
-          composer --version
-          mysql --version
+          composer install
+          php -S 0.0.0.0:8080 -t www vendor/phpgt/webengine/go.php &
+          vendor/bin/behat -c test/behat/behat.yml
+          killall php
