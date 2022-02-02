@@ -987,16 +987,16 @@
         },
         {
             "name": "phpgt/webengine",
-            "version": "v4.0.1",
+            "version": "v4.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PhpGt/WebEngine.git",
-                "reference": "985fd9f60ccc1390c244fc7d5ec90b7ab7bed8aa"
+                "reference": "0316a042a1a05697b58d56f2e888a5f00c181aa8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PhpGt/WebEngine/zipball/985fd9f60ccc1390c244fc7d5ec90b7ab7bed8aa",
-                "reference": "985fd9f60ccc1390c244fc7d5ec90b7ab7bed8aa",
+                "url": "https://api.github.com/repos/PhpGt/WebEngine/zipball/0316a042a1a05697b58d56f2e888a5f00c181aa8",
+                "reference": "0316a042a1a05697b58d56f2e888a5f00c181aa8",
                 "shasum": ""
             },
             "require": {
@@ -1047,7 +1047,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PhpGt/WebEngine/issues",
-                "source": "https://github.com/PhpGt/WebEngine/tree/v4.0.1"
+                "source": "https://github.com/PhpGt/WebEngine/tree/v4.0.4"
             },
             "funding": [
                 {
@@ -1055,7 +1055,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-01-31T12:51:55+00:00"
+            "time": "2022-02-02T08:45:12+00:00"
         },
         {
             "name": "psr/container",
